@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+}
+
+.logo h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.user-info img {
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.user-info p {
+    margin: 0;
+}
+
+.search-bar {
+    max-width: 500px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.search-bar input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    width: 70%;
+    margin-right: 10px;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #555;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Add more CSS styles to enhance the page as needed */
